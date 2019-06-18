@@ -16,7 +16,7 @@ namespace _17Junio.Services
             var nuevoProducto = new Productos();
             nuevoProducto.ProductoId = Convert.ToInt32(txtId.Text);
             nuevoProducto.Nombre = txtNombre.Text;
-            nuevoProducto.Precio = Convert.ToInt32(txtPrecio.Text);
+            nuevoProducto.Precio = Convert.ToDecimal(txtPrecio.Text);
             nuevoProducto.Cantidad = Convert.ToInt32(txtCantidad.Text);
             return nuevoProducto;
         }
