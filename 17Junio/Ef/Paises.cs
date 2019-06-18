@@ -14,5 +14,8 @@ namespace _17Junio.Ef
 
         [StringLength(50)]
         public string Nombre { get; set; }
+
+
+
     }
 }
